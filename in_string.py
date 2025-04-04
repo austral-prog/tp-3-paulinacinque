@@ -4,22 +4,21 @@ def check_vowels():
 
 # Para verificar este ejercicio ejecutar el comando
 # `pytest tp3_in_string_test.py` o `python tp3_in_string_test.py`
-    name = "Matias"
-    input(name.lower())
+    name = input ("Matias").lower()
     a = "a"
     e = "e"
     i = "i"
     o = "o"
     u = "u"
     print("Contiene a:") 
-    print (a in name)
+    print (a in "Matias")
     print("Contiene e:") 
-    print(e in name)
+    print(e in "Matias")
     print("Contiene i:") 
-    print(i in name)
+    print(i in "Matias")
     print("Contiene o:") 
-    print(o in name)
+    print(o in "Matias")
     print("Contiene u:") 
-    print(u in name)
+    print(u in "Matias")
 
 check_vowels()
