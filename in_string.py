@@ -10,15 +10,9 @@ def check_vowels():
     i = "i"
     o = "o"
     u = "u"
-    print("Contiene a:") 
-    print (a in name)
-    print("Contiene e:") 
-    print(e in name)
-    print("Contiene i:") 
-    print(i in name)
-    print("Contiene o:") 
-    print(o in name)
-    print("Contiene u:") 
-    print(u in name)
-
-check_vowels()
+    print(f"Contiene {a}: {a in name}") 
+    print(f"Contiene {e}: {e in name}") 
+    print(f"Contiene {i}: {i in name}") 
+    print(f"Contiene {o}: {o in name}") 
+    print(f"Contiene {u}: {u in name}") 
+ 
